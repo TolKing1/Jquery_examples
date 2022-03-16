@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $('.show_hide-menu').click(function(){
+        $('.fa').animate({
+            left:'300px',   
+        },1000)
+    })
+    $('.show_hide-menu').onclick(function(){
+        $('.fa').animate({
+            left:'0px',   
+        },1000)
+    })
+})
